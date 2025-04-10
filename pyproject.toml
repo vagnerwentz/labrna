@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "rna"
+name = "labrna"
 version = "0.250411.0"
-description = "Prática em redes neurais articifiais"
+description = "Prática em redes neurais artificiais"
 authors = ["davips <davip@utfpr.edu.br>"]
 license = "GPLv3"
 readme = 'README.md'
 packages = [
-    { include = "rna", from = "src" }
+    { include = "labrna", from = "src" }
 ]
 
 [tool.poetry.dependencies]
