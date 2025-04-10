@@ -1,2 +1,2 @@
-# perceptron
-Laboratório de implementação do Perceptron
+# labrna
+Laboratório de implementação de redes neurais artificiais.
