@@ -1,2 +1,2 @@
 # perceptron
-Laboratório de implementação de Perceptron
+Laboratório de implementação do Perceptron
