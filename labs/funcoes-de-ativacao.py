@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
 
@@ -11,9 +12,7 @@ sigmoide = torch.sigmoid(x)
 tanh = torch.tanh(x)
 relu = F.relu(x)
 
-# Exibir ou plotar os resultados (exemplo com matplotlib)
-import matplotlib.pyplot as plt
-
+# Plot
 plt.figure(figsize=(10, 6))
 plt.plot(x, linear, label='Linear')
 plt.plot(x, degrau, label='Degrau')
